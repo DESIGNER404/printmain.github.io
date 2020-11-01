@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="814" height="814" viewBox="0 0 814 814">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #350744;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #430956;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="5" y="5" width="804" height="804" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="7.874" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.41"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="119" y="125" width="577" height="577" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.196"/>
+      <feFlood result="flood" flood-opacity="0.54"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Эллипс_4_копия" data-name="Эллипс 4 копия" class="cls-1" cx="407" cy="407" r="402"/>
+  <circle id="Эллипс_4" data-name="Эллипс 4" class="cls-2" cx="407" cy="407" r="259.125"/>
+</svg>

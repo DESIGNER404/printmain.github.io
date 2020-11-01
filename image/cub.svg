@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="732" height="732" viewBox="0 0 732 732">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3c3c3c;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #1e1e1e;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="5" y="5" width="722" height="722" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="7" in="SourceAlpha"/>
+      <feFlood result="flood" flood-opacity="0.8"/>
+      <feComposite result="composite" operator="out" in2="blur"/>
+      <feOffset result="offset" dy="2"/>
+      <feComposite result="composite-2" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="78" y="84" width="577" height="577" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.196"/>
+      <feFlood result="flood" flood-opacity="0.67"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Прямоугольник_17_копия" data-name="Прямоугольник 17 копия" class="cls-1" x="5" y="5" width="722" height="722"/>
+  <rect id="Прямоугольник_17" data-name="Прямоугольник 17" class="cls-2" x="106" y="106" width="520" height="520"/>
+</svg>
